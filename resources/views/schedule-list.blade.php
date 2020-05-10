@@ -4,14 +4,14 @@
     Сторінка, яка відображає усі коментарі
 -->
 @section('title')
-    Comments
+    {{$type}}
 @endsection
 
 @section('name')
-    Comments
+    {{$type}}
 @endsection
 
 @section('content')
-@include('inc.messages', $data)
+    @include('inc.list_schedule', $data)
 
 @endsection

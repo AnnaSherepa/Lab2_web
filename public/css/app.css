@@ -249,3 +249,21 @@ a {
   width: 100%;
 }
 
+.schedule_list {
+  color: #E7E7E7;
+  font-size: 25px;
+}
+
+.schedule_list ul {
+  list-style: none;
+  color: #E7E7E7;
+}
+
+.schedule_list ul li a {
+  color: #E7E7E7;
+}
+
+.schedule_list ul li a:hover {
+  color: black;
+}
+

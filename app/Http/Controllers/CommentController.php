@@ -54,12 +54,14 @@ class CommentController extends Controller{
         $comment->email = $req->input('email');
         $comment->subject = $req->input('subject');
         $comment->message = $req->input('message');
+
         $comment->save();//extends from Model;
         return redirect()->route('comments')->with('success', 'Повідомлення оновлено');
     }
 
     public function deleteComment($id){
         Comment::find($id)->delete();
+
         return redirect()->route('comments')->with('success', 'Повідомлення видалено');
 
     }

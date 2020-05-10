@@ -17,6 +17,7 @@
             <ul>
                 <li><a href="{{ route('home') }}"><div class="img_n"><img src="resources/views/img/profile.png" alt=""><br><span>Профіль</span></div></a></li>
                 <li><a href="{{route('comments')}}"><br><span>Коментарі</span></a></li>
+                <li><a href="{{route('schedule')}}"><br><span>Розклад</span></a></li>
             </ul>
         </div>
 
