@@ -16,19 +16,19 @@
         Викладачі:
         @foreach($lectures as $item)
             <ul>
-                <li>{{$item->name}}</li>
+                <li><a href="{{ route('LectureInfoID', $item->id) }}">{{$item->name}}</a></li>
             </ul>
         @endforeach
         Предмети:
         @foreach($subjects as $item)
             <ul>
-                <li>{{$item->name}}</li>
+                <li><a href="{{ route('SubjectInfoID', $item->id) }}">{{$item->name}}</a></li>
             </ul>
         @endforeach
         Групи на кафедрі:
         @foreach($groups as $item)
             <ul>
-                <li>{{$item}}</li>
+                <li><a href="{{ route('GroupInfoID', $item->id) }}">{{$item->name}}</a></li>
             </ul>
         @endforeach
     </div>

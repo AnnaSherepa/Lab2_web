@@ -259,11 +259,11 @@ a {
   color: #E7E7E7;
 }
 
-.schedule_list ul li a {
+.schedule_list a {
   color: #E7E7E7;
 }
 
-.schedule_list ul li a:hover {
+.schedule_list a:hover {
   color: black;
 }
 

@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Cafedra extends Model
 {
     public function scopeList(){
-        return Cafedra::select('name')->get();
+        return Cafedra::select('*')->get();
     }
 
     public function lectures(){
@@ -17,4 +17,5 @@ class Cafedra extends Model
     public function subjects(){
         return $this->hasManyThrough('App\Subject','App\Lecture');
     }
+
 }

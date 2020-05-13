@@ -16,16 +16,11 @@
             </tr>
             @foreach($lectures as $item)
                 <tr></tr>
-                  <td>{{$item->name}}</td><td>{{$item->cafedra->name}}</td><td>{{$item->subject->name}}</td>
+                <td><a href="{{ route('LectureInfoID', $item->id) }}">{{$item->name}}</a></td>
+                <td><a href="{{ route('CafedraInfoID', $item->cafedra->id) }}">{{$item->cafedra->name}}</a></td>
+                <td><a href="{{ route('SubjectInfoID', $item->subject->id) }}">{{$item->subject->name}}</a></td>
                 </tr>
             @endforeach
         </table>
-
-        <!--Викладачі:
-        @foreach($lectures as $item)
-            <ul>
-                <li>{{$item->name}}</li>
-            </ul>
-        @endforeach-->
     </div>
 @endsection

@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Gr extends Model
 {
     public function scopeList(){
-        return Gr::select('name')->get();
+        return Gr::select('*')->get();
     }
 
     public function lectures(){

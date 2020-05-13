@@ -13,12 +13,12 @@
 
 @section('content')
     <div class="schedule_list">
-        Кафедра: {{$caf['name']}}<br>
-        Викладач: {{$data['name']}}<br>
+        Кафедра: <a href="{{ route('CafedraInfoID', $caf->id) }}">{{$caf['name']}}<br></a>
+        Викладач: <a href="{{ route('LectureInfoID', $data->id) }}">{{$data['name']}}<br></a>
         Групи:
         @foreach($data->groups as $item)
             <ul>
-                <li>{{$item->name}}</li>
+                <li><a href="{{ route('GroupInfoID', $item->id) }}"> {{$item->name}}</a></li>
             </ul>
         @endforeach
     </div>

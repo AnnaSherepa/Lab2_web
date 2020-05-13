@@ -2,37 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17a7f86c-3a7a-4be4-b582-bd077f4f4704" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Cafedra.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Gr.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Gr_Lectures.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/CafedraController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/LectureController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/SubjectController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Lecture.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Subject.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_05_09_182942_create_lectures_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_05_09_201918_create_subjects_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_05_09_210552_create_grs_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_05_09_211304_create_gr__lectures_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/cafedra-info.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/group-info.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/inc/list_schedule.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/lecture-info.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/new.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/schedule-list.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/schedule.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/subject-info.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CommentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CommentController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TestController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/GrController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_04_25_104325_create_test_models_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_05_08_173229_create_cafedras_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Cafedra.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Cafedra.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Gr.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Gr.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CafedraController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CafedraController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/GrController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/GrController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/LectureController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/LectureController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SubjectController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SubjectController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Lecture.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Lecture.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Subject.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Subject.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/comments.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/comments.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/inc/messages.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/inc/messages.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layout/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/cafedra-info.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/cafedra-info.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/group-info.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/group-info.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/inc/list_schedule.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/inc/list_schedule.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/lecture-info.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/lecture-info.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/schedule-list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/schedule-list.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/schedule.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/schedule.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/subject-info.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/subject-info.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -160,7 +147,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/b" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
@@ -202,6 +189,10 @@
       <workItem from="1589046977947" duration="15868000" />
       <workItem from="1589103986089" duration="4819000" />
       <workItem from="1589119101070" duration="2672000" />
+      <workItem from="1589125063865" duration="340000" />
+      <workItem from="1589161788599" duration="52000" />
+      <workItem from="1589185476208" duration="1263000" />
+      <workItem from="1589368929977" duration="13938000" />
     </task>
     <servers />
   </component>
@@ -220,25 +211,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589059868503" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1589033180585">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1589372829608">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589033180585" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589372829608" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1587721275053">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1587721275053" />
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1589125062731">
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1589369530390">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589125062731" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589369530390" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1589057273662">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589057273662" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1589062055989">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1589376136489">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589062055989" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589376136489" />
   </component>
 </project>

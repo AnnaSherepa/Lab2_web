@@ -28,10 +28,15 @@ Route::get('/schedule/subjects', 'SubjectController@getList')->name('SubjectList
 Route::get('/schedule/Groups', 'GrController@getList')->name('GroupList');
 
 
-Route::post('/schedule/lecturesofcafedra', 'CafedraController@getLectureList')->name('CafedraLectureList');
-Route::post('/schedule/lectureInfo', 'LectureController@getLectureList')->name('LectureInfo');
-Route::post('/schedule/SubjectInfo', 'SubjectController@getSubjectInfo')->name('SubjectInfo');
-Route::post('/schedule/GroupInfo', 'GrController@getGroupInfo')->name('GroupInfo');
+Route::post('/schedule/CafedraInfo', 'CafedraController@getCafedraInfoName')->name('CafedraInfoName');
+Route::post('/schedule/LectureInfo', 'LectureController@getLectureInfoName')->name('LectureInfoName');
+Route::post('/schedule/SubjectInfo', 'SubjectController@getSubjectInfoName')->name('SubjectInfoName');
+Route::post('/schedule/GroupInfo', 'GrController@getGroupInfoName')->name('GroupInfoName');
+
+Route::get('/schedule/GroupInfo/{id}', 'GrController@getGroupInfoID')->name('GroupInfoID');
+Route::get('/schedule/SubjectInfo/{id}', 'SubjectController@getSubjectInfoID')->name('SubjectInfoID');
+Route::get('/schedule/LectureInfo/{id}', 'LectureController@getLectureInfoID')->name('LectureInfoID');
+Route::get('/schedule/CafedraInfo/{id}', 'CafedraController@getCafedraInfoID')->name('CafedraInfoID');
 
 
 

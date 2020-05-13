@@ -12,6 +12,6 @@
 @endsection
 
 @section('content')
-    @include('inc.list_schedule', $data)
+    @include('inc.list_schedule', ['data' =>$data, 'type' =>$type])
 
 @endsection

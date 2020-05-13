@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Lecture extends Model
 {
     public function scopeList(){
-        return Lecture::select('name')->get();
+        return Lecture::select('*')->get();
     }
 
     public function cafedra(){

@@ -2,9 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use DemeterChain\C;
 use ErrorException;
 use Illuminate\Http\Request;
 use App\Cafedra;
+use Illuminate\Support\Collection;
 
 class CafedraController extends Controller
 {
@@ -12,7 +14,7 @@ class CafedraController extends Controller
         return view('schedule-list', ['data' => Cafedra::List(), 'type' => 'Список кафедр']);
     }
 
-    public function getLectureList(Request $req){
+    public function getCafedraInfoName(Request $req){
         $name = $req->input('name');
 
         $id_caf = Cafedra::where('name', 'like', "%$name%")->get()[0]['id'];
@@ -21,10 +23,24 @@ class CafedraController extends Controller
         $groups = [];
         foreach($lectures as $lecture){
             foreach ($lecture->groups as $group){
-                $groups[] = $group['name'];
+                $groups[] = $group;
             }
         }
-        return view('cafedra-info', ['lectures' => $lectures, 'subjects' => $caf->subjects, 'groups' => array_unique($groups), 'type' => 'Інформація про кафедру '.$caf->name]);
 
+        return view('cafedra-info', ['lectures' => $lectures, 'subjects' => $caf->subjects, 'groups' => array_unique($groups), 'type' => 'Інформація про кафедру '.$caf->name]);
+    }
+
+    public function getCafedraInfoID($id){
+        $caf = Cafedra::find($id);
+        $lectures = $caf->lectures;
+        $groups = new Collection([]);
+        $groups = [];
+        foreach($lectures as $lecture){
+            foreach ($lecture->groups as $group){
+                $groups[] = $group;
+            }
+        }
+
+        return view('cafedra-info', ['lectures' => $lectures, 'subjects' => $caf->subjects, 'groups' => array_unique($groups), 'type' => 'Інформація про кафедру '.$caf->name]);
     }
 }

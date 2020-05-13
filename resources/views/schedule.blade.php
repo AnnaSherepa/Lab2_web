@@ -20,7 +20,7 @@
             <li><a href="{{ route('SubjectList') }}">Список предметів</a></li>
             <li><a href="{{ route('GroupList') }}">Список груп</a></li>
             <li>
-                <form action="{{ route('CafedraLectureList') }}" method="post">
+                <form action="{{ route('CafedraInfoName') }}" method="post">
                     @csrf
                     <div class="form-group">
                         <label for="name">Введіть назву кафедри, щоб побачити перелік викладачів</label><br>
@@ -30,7 +30,7 @@
                 </form>
             </li>
             <li>
-                <form action="{{ route('LectureInfo') }}" method="post">
+                <form action="{{ route('LectureInfoName') }}" method="post">
                     @csrf
                     <div class="form-group">
                         <label for="name">Введіть ПІБ викладача</label><br>
@@ -40,7 +40,7 @@
                 </form>
             </li>
             <li>
-                <form action="{{ route('SubjectInfo') }}" method="post">
+                <form action="{{ route('SubjectInfoName') }}" method="post">
                     @csrf
                     <div class="form-group">
                         <label for="name">Введіть назву предмета, щоб отримати більше інформації</label><br>
@@ -50,7 +50,7 @@
                 </form>
             </li>
             <li>
-                <form action="{{ route('GroupInfo') }}" method="post">
+                <form action="{{ route('GroupInfoName') }}" method="post">
                     @csrf
                     <div class="form-group">
                         <label for="name">Введіть назву групи, щоб отримати більше інформації</label><br>
@@ -59,12 +59,7 @@
                     </div>
                 </form>
             </li>
-            <!--
-            <a href="{{ route('CafedraLectureList') }}">Список викладачів на кафедрі</a>
-            <li><a href="#">Список груп</a></li>
-             <li><a href="#">Список предметів</a></li>
-             <li><a href="#">Список викладачів</a></li>
- -->
+
         </ul>
     </div>
 @endsection
